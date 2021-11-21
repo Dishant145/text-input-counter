@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+body {
+  background-color: rgb(51, 139, 129);
+}
+.wrapper {
+  position: absolute;
+  width: 90vmin;
+  transform: translate(-50%, -48%);
+  top: 47%;
+  left: 50%;
+}
+.container {
+  background-color: #ffffff;
+  padding: 40px 30px 50px 30px;
+  border-radius: 8px;
+  box-shadow: 0 30px 50px rgba(30, 21, 49, 0.3);
+}
+textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0e101a;
+}
+
+.count1 {
+  background-color: rgb(47, 46, 54);
+  width: 70%;
+  padding: 20px;
+  position: relative;
+  transform: translate(-50%,10%);
+  left: 50%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 20px 40px rgba(30, 21, 49, 0.4);
+}
+
+.count2 {
+  background-color: rgb(47, 46, 54);
+  width: 70%;
+  padding: 20px;
+  position: relative;
+  transform: translate(-50%, -3%);
+  left: 50%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 20px 40px rgba(30, 21, 49, 0.4);
+}
+
+.count1 p {
+  color: #bcbccc;
+}
+.count1 #word-count {
+color: #ffffff;
+font-size: 32px;
+}
+
+.count1 #charac-count {
+color: #ffffff;
+font-size: 32px;
+}
+
+.count2 p {
+  color: #a0a0c0;
+}
+.count2 #vowel-count {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.count2 #cons-count {
+  color: #ffffff;
+  font-size: 32px;
+}
+
