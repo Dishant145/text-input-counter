@@ -32,7 +32,7 @@ textarea {
 
 .count1 {
   background-color: rgb(47, 46, 54);
-  width: 70%;
+  width: 90%;
   padding: 20px;
   position: relative;
   transform: translate(-50%,10%);
@@ -46,7 +46,7 @@ textarea {
 
 .count2 {
   background-color: rgb(47, 46, 54);
-  width: 70%;
+  width: 90%;
   padding: 20px;
   position: relative;
   transform: translate(-50%, -3%);
@@ -57,6 +57,10 @@ textarea {
   border-radius: 5px;
   box-shadow: 0 20px 40px rgba(30, 21, 49, 0.4);
 }
+
+
+
+
 
 .count1 p {
   color: #bcbccc;
@@ -71,6 +75,12 @@ color: #ffffff;
 font-size: 32px;
 }
 
+
+.count1 #sentence-count {
+  color: #ffffff;
+  font-size: 32px;
+  }
+
 .count2 p {
   color: #a0a0c0;
 }
@@ -80,6 +90,12 @@ font-size: 32px;
 }
 
 .count2 #cons-count {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+
+.count2 #para-count {
   color: #ffffff;
   font-size: 32px;
 }
