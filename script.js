@@ -4,6 +4,9 @@ inputTextArea.addEventListener("input", countvc);
 
 inputTextArea.addEventListener("input", countwc);
 
+inputTextArea.addEventListener("input", countpc);
+
+
 
 function countwc()
 {
@@ -58,3 +61,12 @@ function countvc()
     
 }
 
+function countpc()
+{
+    let sc = document.getElementById("sentence-count");
+    let pc = document.getElementById("para-count");
+    let txt = inputTextArea.value.trim();
+    sc.textContent = txt.split(/[.?!]+/).filter((item) => item).length;
+    pc.textContent = txt.split(/\n/).filter((item) => item).length;
+
+}
