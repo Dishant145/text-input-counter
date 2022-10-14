@@ -24,8 +24,8 @@ function countvc()
 
     var str=document.getElementById("input-textarea").value;
 
-    var vowel= "aeiouAEOU";
-    var consonant = "bcdfghjklmnpqrstvwxyz";
+    var vowel= "aeiouAEIOU";
+    var consonant = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
     
     var ctr1=0;
     var ctr2=0;
